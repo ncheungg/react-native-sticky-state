@@ -1,6 +1,6 @@
 {
   "name": "react-native-sticky-state",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Custom hook to persist React Native state",
   "main": "dist/index.js",
   "source": "src/index.js",
@@ -20,5 +20,13 @@
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.1",
     "react": "^17.0.2"
-  }
+  },
+  "keywords": [
+    "useState",
+    "hook",
+    "react-native",
+    "react native",
+    "localstorage",
+    "AsyncStorage"
+  ]
 }
