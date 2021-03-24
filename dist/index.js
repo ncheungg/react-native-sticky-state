@@ -20,4 +20,4 @@ const useStickyState = (defaultValue, loadingDefaultValue, key) => {
   return [value, setValue];
 };
 
-module.exports = useStickyState;
+module.exports.useStickyState = useStickyState;

@@ -7,7 +7,7 @@ Custom hook to persist React Native state using [AsyncStorage](https://github.co
 In your react-native project folder, run:
 
 ```bash
-npm i react-native-sticky-state
+npm i react-native-sticky-state --save
 ```
 
 ## 💻 Example
