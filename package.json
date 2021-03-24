@@ -1,0 +1,23 @@
+{
+  "name": "react-native-sticky-state",
+  "version": "1.0.1",
+  "description": "Custom hook to persist React Native state",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathancheung22/react-native-sticky-state.git"
+  },
+  "author": "urvianoob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathancheung22/react-native-sticky-state/issues"
+  },
+  "homepage": "https://github.com/nathancheung22/react-native-sticky-state#readme",
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "react": "^17.0.2"
+  }
+}
