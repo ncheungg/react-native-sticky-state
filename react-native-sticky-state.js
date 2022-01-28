@@ -1,11 +1,5 @@
-// import { useState, useEffect } from "react";
-// import AsyncStorage from "@react-native-community/async-storage";
-
-const _interopDefault = (ex) =>
-  ex && typeof ex === "object" && "default" in ex ? ex["default"] : ex;
-
-const { useState, useEffect } = _interopDefault(require("react"));
-const AsyncStorage = _interopDefault(require("@react-native-community/async-storage"));
+import { useState, useEffect } from "react";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const useStickyState = (defaultValue, loadingDefaultValue, key) => {
   const [value, setValue] = useState(loadingDefaultValue);
@@ -26,4 +20,4 @@ const useStickyState = (defaultValue, loadingDefaultValue, key) => {
   return [value, setValue];
 };
 
-module.exports.useStickyState = useStickyState;
+export default useStickyState;
