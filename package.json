@@ -11,10 +11,17 @@
     "url": "git+https://github.com/ncheungg/react-native-sticky-state.git"
   },
   "keywords": [
-    "React",
-    "React Native",
+    "react",
+    "react-native",
+    "react native",
+    "async storage",
+    "asyncstorage",
+    "storage",
     "useState",
     "persist state",
+    "persist storage",
+    "persistant storage",
+    "persistant state",
     "useStickyState"
   ],
   "author": "urvianoob",
@@ -24,9 +31,6 @@
   },
   "homepage": "https://github.com/ncheungg/react-native-sticky-state#readme",
   "peerDependencies": {
-    "@react-native-async-storage/async-storage": "^1.15.17",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-native": "^0.67.1"
+    "react-native": "^0.0.0-0 || 0.60 - 0.67 || 1000.0.0"
   }
 }
