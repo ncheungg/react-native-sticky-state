@@ -33,11 +33,11 @@ const App = () => {
 ## 📚 Usage
 
 ```js
-const [state, setState] = useStickyState(!defaultValue, !loadingValue, !storageKey);
+const [state, setState] = useStickyState(defaultValue, loadingValue, storageKey);
 ```
 
-| Property     | Description                                                                                                       |
-| ------------ | ----------------------------------------------------------------------------------------------------------------- |
-| defaultValue | The default value used to the state if persistent storage not previously set                                      |
-| loadingValue | The value temporarily used while waiting for useStickyState() to asynchronously grab storage value                |
-| storageKey   | String key used to persist data using [AsyncStorage](https://github.com/react-native-async-storage/async-storage) |
+| Property     | Description                                                                                                                            |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| defaultValue | The default value used if storageKey was not previously set                                                                            |
+| loadingValue | The value temporarily used while waiting for `useStickyState()` to asynchronously grab previous value, can be the same as defaultValue |
+| storageKey   | Unique string key used to persist data, using [AsyncStorage](https://github.com/react-native-async-storage/async-storage) package      |
