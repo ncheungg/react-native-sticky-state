@@ -1,6 +1,8 @@
 # react-native-sticky-state
 
-Custom hook to persist React Native state using [AsyncStorage](https://github.com/react-native-async-storage/async-storage)
+Custom hook to persist React Native state using [AsyncStorage](https://www.npmjs.com/package/@react-native-async-storage/async-storage)
+
+If you're looking to persist React state, check out [use-sticky-state](https://www.npmjs.com/package/use-sticky-state)
 
 ## ⚙️ Installation
 

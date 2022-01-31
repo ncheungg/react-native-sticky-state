@@ -1,6 +1,6 @@
 {
   "name": "react-native-sticky-state",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Custom hook to persist React Native state using AsyncStorage",
   "main": "react-native-sticky-state.js",
   "scripts": {
